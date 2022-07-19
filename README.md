@@ -1,6 +1,6 @@
 # Paint Calculator
 
-Projeto desenvolvido como teste para vaga de de Desenvolvedor Pleno na Digital Replubic.
+Este é o meu primeiro projeto desenvolvido com React/Typescript e eu utilizei o FrameWork ViteJs.
 
 ## Getting started
 
@@ -16,5 +16,4 @@ npm run dev
 
 - Assim que o projeto der o start, ele irá disponibilziar o endereço http://localhost:3000 e já estará pronto para ser utilizado
 
-- Como pedido, adicionando os usuários @digitalrepublic, @thiagomontini e @nicoleteisen
 
