@@ -181,10 +181,10 @@ export function StructureForm(){
     return (
         <div>
             
-            <BoxWall description="Informe os dados da Parede 1" wall="wall1" />
-            <BoxWall description="Informe os dados da Parede 2" wall="wall2" />
-            <BoxWall description="Informe os dados da Parede 3" wall="wall3" />
-            <BoxWall description="Informe os dados da Parede 4" wall="wall4" />
+            <BoxWall description="Informe os dados da Parede 1" wall="wall1" estilo="mb-4 mt-4 border rounded  m-auto p-5 bg-green-700 max-w-max text-center"/>
+            <BoxWall description="Informe os dados da Parede 2" wall="wall2" estilo="mb-4 mt-4 border rounded  m-auto p-5 bg-blue-700 max-w-max text-center"/>
+            <BoxWall description="Informe os dados da Parede 3" wall="wall3" estilo="mb-4 mt-4 border rounded  m-auto p-5 bg-red-700 max-w-max text-center"/>
+            <BoxWall description="Informe os dados da Parede 4" wall="wall4" estilo="mb-4 mt-4 border rounded  m-auto p-5 bg-yellow-700 max-w-max text-center"/>
 
             <div className="flex justify-center flex-col" >
                 <button

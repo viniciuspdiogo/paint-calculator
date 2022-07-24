@@ -3,18 +3,19 @@ import { InputHTMLAttributes, } from "react"
 interface InputsProps extends InputHTMLAttributes<HTMLInputElement>{
     description: string,
     wall: string,
+    estilo: string,
 }
 
-export function BoxWall({wall,description, ...rest }: InputsProps){
+export function BoxWall({wall,description,estilo, ...rest }: InputsProps){
     
 
     return (
-        <div className="mb-4 mt-4 border rounded  m-auto p-5 bg-green-700 max-w-max text-center">
+        <div className={estilo}>
 
             <span className="font-bold text-xl">{description}</span>
             
-            <div className="flex justify-center align-middle mt-4 ">
-                <div className="flex flex-col justify-center items-center mr-1">
+            <div className="flex flex-wrap justify-center align-middle mt-4 ">
+                <div className="flex  flex-col justify-center items-center mr-1">
                     <label htmlFor="">Altura da Parede</label>
                     <input 
                         {...rest}
@@ -40,7 +41,7 @@ export function BoxWall({wall,description, ...rest }: InputsProps){
                 </div>                           
             </div>
 
-            <div className="flex justify-center align-middle mt-4 ">
+            <div className="flex flex-wrap justify-center align-middle mt-4 ">
                 <div className="flex flex-col justify-center items-center mr-1">
                     <label htmlFor="">Portas</label>
                     <input 
